@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MilkTea - Relax and Drink</title>
+    <link rel="shortcut icon" href="images/logo_icon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/khuyenmai responsive.css" />
+    <script type="text/javascript" src="script/jquery-3.3.1.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <img src="images/logo_icon/Screenshot (54).png" width="90">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="trangchu.html">TRANG CHỦ</a>
+                </li>
+                <li>
+                    <a href="gioithieu.html">GIỚI THIỆU</a>
+                </li>
+                <li>
+                    <a href="ThucDon/ThucDon.html">THỰC ĐƠN</a>
+                </li>
+                <li>
+                    <a href="khuyenmai.html">KHUYẾN MÃI</a>
+                </li>
+                <li>
+                    <a href="tuyendung.html">TUYỂN DỤNG</a>
+                </li>
+                <li>
+                    <a href="lienhe.html">LIÊN HỆ</a>
+                </li>
+
+            </ul>
+            <form class="search-form">
+                <div class="tim_kiem">
+                    <input id="keyword" name="keyword" type="text" class="search-input" placeholder="Keyword">
+                </div>
+            </form>
+            <div class="facebook">
+                <a href="https://www.facebook.com/MilkTea-1060737020758696/?modal=admin_todo_tour&notif_id=1532879308366553&notif_t=page_invite">
+                    <img src="images/logo_icon/download.png">
+                </a>
+            </div>
+        </div>
+        <div class="menu_response">
+            <div style="position: fixed;z-index: 99;display: block;width: 30px; left: 80% ;padding: 0px 7px;height: 30px;border-radius: 2px;margin: 0px;margin-top: 25px;background-color: #1221cc;font-size: 125%;font-weight: bold;color: white ;text-align: center;cursor: pointer;"
+                onclick="goi_menu()">
+                =
+            </div>
+            <div id="menus">
+                <ul class="shorten">
+                    <li>
+                        <a href="trangchu.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <a href="gioithieu.html">GIỚI THIỆU</a>
+                    </li>
+                    <li>
+                        <a href="ThucDon/ThucDon.html">THỰC ĐƠN</a>
+                    </li>
+                    <li>
+                        <a href="khuyenmai.html">KHUYẾN MÃI</a>
+                    </li>
+                    <li>
+                        <a href="tuyendung.html">TUYỂN DỤNG</a>
+                    </li>
+                    <li>
+                        <a href="lienhe.html">LIÊN HỆ</a>
+                    </li>
+
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MilkTea-1060737020758696/?modal=admin_todo_tour&notif_id=1532879308366553&notif_t=page_invite">
+                            <img src="images/logo_icon/download.png" style="width:24px; display: block; margin-left: 60px;"></img>
+                        </a>
+                    </div>
+                    <div style="position: relative;z-index: 99;display: block;width: 30px; left: 80% ;padding: 0px 7px;height: 30px;border-radius: 2px;margin: 0px;margin-top: 25px;color: #1221cc;font-size: 125%;font-weight: bold; background-color: white ;text-align: center;cursor: pointer;"
+                        onclick="dong_menu()">
+                        <span> = </span>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header2">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="trangchu.html">TRANG CHỦ</a>
+                </li>
+                <li>
+                    <a href="gioithieu.html">GIỚI THIỆU</a>
+                </li>
+                <li>
+                    <a href="ThucDon/ThucDon.html">THỰC ĐƠN</a>
+                </li>
+                <li>
+                    <a href="khuyenmai.html">KHUYẾN MÃI</a>
+                </li>
+                <li>
+                    <a href="tuyendung.html">TUYỂN DỤNG</a>
+                </li>
+                <li>
+                    <a href="lienhe.html">LIÊN HỆ</a>
+                </li>
+
+            </ul>
+            <div class="facebook">
+                <a href="https://www.facebook.com/MilkTea-1060737020758696/?modal=admin_todo_tour&notif_id=1532879308366553&notif_t=page_invite">
+                    <img src="images/logo_icon/download.png"> </a>
+            </div>
+            <div class="tim_kiem">
+                <input type="search" placeholder="Tìm kiếm" />
+            </div>
+        </div>
+    </div>
+    <div class="tra-sua-tin-tuc col-12 col-s-12 fade " style="margin-top: 140px;">
+        <div class="hinh-anh float-left col-s-4 col-4">
+            <div class="post_box_img">
+                <a target="_blank" href="images/khuyen_mai/km1.jpg">
+                    <img src="images/khuyen_mai/km1.jpg" alt="a1" id="img1">
+                </a>
+            </div>
+
+        </div>
+        <div class="comment cmt-float-right col-8 col-s-8">
+            <div class="title">
+                <a href="khuyenmai1.html" target="blank" title="Cầu Vòng Yêu Thương">Cầu Vòng Yêu Thương</a>
+            </div>
+            <div class="detail">
+                Hai bạn yêu nhau? Cùng nhau yêu thích làm chung nhiều việc? Cảm thấy rằng họ là người bạn đồng hành tuyệt
+                    vời nhất để trải nghiệm mọi thứ trong cuộc sống. Trà sữa cầu vòng sẽ gắn kết 2 bạn lại gần nhau thêm,
+                    nhiều cảm xúc hơn. MUA 1 TẶNG 1.
+                <div class="gia">
+                    <p>Chỉ 79k</p>
+                </div>
+                <div class="wrapper">
+                    <a href="khuyenmai1.html" target="_blank">
+                        <button class="btn aa">KHÁM PHÁ THÊM</button>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tra-sua-tin-tuc col-s-12 col-12 fade">
+        <div class="comment cmt-float-left">
+            <div class="title">
+                <a href="khuyenmai2.html" target="_blank" title="Những Ngày Mưa">Những Ngày Mưa</a>
+            </div>
+            <div class="detail">
+                Đọc một cuốn sách hay và lắng tai nghe tiếng mưa rì rầm hòa cùng Green Tea Milk trong những ngày mưa.
+                    <p>Một ngày mưa, khi mà mọi vướng bận đều được bỏ qua, ta có đủ thời gian để thả hồn vào Coffee Milk.</p>
+                
+                <div class="gia">
+                    <p>Chỉ 49k</p>
+                </div>
+                <div class="wrapper">
+                    <a href="khuyenmai2.html" target="_blank">
+                        <button class="btn aa">KHÁM PHÁ THÊM</button>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="hinh-anh float-right col-s-4 col-4">
+            <div class="post_box_img">
+                <a target="_blank" href="images/khuyen_mai/km2.jpg">
+                    <img src="images/khuyen_mai/km2.jpg" alt="a1" id="img2">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left_footer">
+            <div class="logo_footer">
+                <img src="images/logo_icon/footer.png" style="width: 80%"></img>
+                <div style="width: 100%; font-size:125%">COPYRIGHT © 2018 MilkTea</div>
+            </div>
+        </div>
+        <div class="right_footer">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="/ThucDon/ThucDon.html">Thực đơn</a>
+                    </li>
+                    <li>
+                        <a href="khuyenmai.html">Khuyến mãi</a>
+                    </li>
+                    <li>
+                        <a href="tuyendung.html">Tuyển dụng</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a href="mailto:lesang541191309@gmail.com?subject=Feedback&body=Message" style="display: block; width: 80%;position: relative; float: left ;left: 100px;; text-decoration: none; color: #999999ff">
+                    <img src="images/logo_icon/mail.png" style="height: 12px"></img> : feedback@milktea.vn
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="chuyen_ve_dau_trang" href="#">
+	<img src="images/top.png">
+	</div>
+
+</body>
+<script type="text/javascript" src="script/khuyenmai.js"></script>
+</html>

@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="script/jquery-3.3.1.js"></script>
+    
+    <title>Cầu Vòng Yêu Thương</title>
+    <link rel="shortcut icon" href="images/logo_icon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style1.css"/>
+</head>
+
+<body>
+        <div class="header">
+                <img src="images/logo_icon/Screenshot (54).png" width="90">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="trangchu.html">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="gioithieu.html">GIỚI THIỆU</a>
+                        </li>
+                        <li>
+                            <a href="ThucDon/ThucDon.html">THỰC ĐƠN</a>
+                        </li>
+                        <li>
+                            <a href="khuyenmai.html">KHUYẾN MÃI</a>
+                        </li>
+                        <li>
+                            <a href="tuyendung.html">TUYỂN DỤNG</a>
+                        </li>
+                        <li>
+                            <a href="lienhe.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+        
+        
+                    <form class="search-form">
+                        <div class="tim_kiem">
+                            <input id="keyword" name="keyword" type="text" class="search-input" placeholder="Keyword">
+                        </div>
+                    </form>
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MilkTea-1060737020758696/?modal=admin_todo_tour&notif_id=1532879308366553&notif_t=page_invite
+                        4">
+                            <img src="images/logo_icon/download.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="menu_response">
+                    <div style="position: fixed;z-index: 99;display: block;width: 30px; left: 80% ;padding: 0px 7px;height: 30px;border-radius: 2px;margin: 0px;margin-top: 25px;background-color: #1221cc;font-size: 125%;font-weight: bold;color: white ;text-align: center;cursor: pointer;"
+                        onclick="goi_menu()">
+                        =
+                    </div>
+                    <div id="menus">
+                        <ul style="display: block;position: fixed; z-index: 99;left:0px; top: 0px; ;background-color: #1221cc; padding-top: 40px">
+                            <li>
+                                <a href="trangchu.html">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="gioithieu.html">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="ThucDon/ThucDon.html">Thực đơn</a>
+                            </li>
+                            <li>
+                                <a href="khuyenmai.html">Khuyến mãi</a>
+                            </li>
+                            <li>
+                                <a href="tuyendung.html">Tuyển dụng</a>
+                            </li>
+                            <li>
+                                <a href="lienhe.html">Liên hệ</a>
+                            </li>
+                            <div class="facebook">
+                                <a href="https://www.facebook.com/MilkTea-1060737020758696/?modal=admin_todo_tour&notif_id=1532879308366553&notif_t=page_invite">
+                                    <img src="images/logo_icon/download.png" style="width:24px; display: block; margin-left: 60px;"></img>
+                                </a>
+                            </div>
+                            <div style="position: relative;z-index: 99;display: block;width: 30px; left: 80% ;padding: 0px 7px;height: 30px;border-radius: 2px;margin: 0px;margin-top: 25px;color: #1221cc;font-size: 125%;font-weight: bold; background-color: white ;text-align: center;cursor: pointer;"
+                                onclick="dong_menu()">
+                                <span> = </span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="header2">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="trangchu.html">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="gioithieu.html">GIỚI THIỆU</a>
+                        </li>
+                        <li>
+                            <a href="ThucDon/ThucDon.html">THỰC ĐƠN</a>
+                        </li>
+                        <li>
+                            <a href="khuyenmai.html">KHUYẾN MÃI</a>
+                        </li>
+                        <li>
+                            <a href="tuyendung.html">TUYỂN DỤNG</a>
+                        </li>
+                        <li>
+                            <a href="lienhe.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/MilkTea-1060737020758696/?modal=admin_todo_tour&notif_id=1532879308366553&notif_t=page_invite">
+                            <img src="images/logo_icon/download.png"> </a>
+                    </div>
+                    <div class="tim_kiem">
+                        <input type="search" placeholder="Tìm kiếm" />
+                    </div>
+                </div>
+        </div>
+        <div class="all fade">
+        <div>
+            <h1>Cầu vòng yêu thương</h1>
+        </div>
+        <div class="day">
+            <img src="images/khuyen_mai/cal.png" alt="calendar"style="width:1%; height:1%"> 
+            <span>Chủ nhật, 05/08/2018, 17:00 GMT+7</span>
+        </div>
+        <div class="post_box_img">
+            <img src="images/khuyen_mai/km1.jpg" alt="a1" style="width:25%; height:10%">
+        </div>
+
+        <div class="content">
+            <ol>
+                <li id="bold">Chương trình ưu đãi:</li>
+                Từ ngày 16/07/2018 đến ngày 30/09/2018 tại MilkTea toàn quốc, Quý Khách Hàng khi mua khi đi cùng người yêu thương sẽ có cơ
+                hội nhận ngay ưu đãi hấp dẫn cùng Trà Sữa Cầu Vòng đậm đà, thạch giòn khó cưỡng!
+
+                <p>Để tận hưởng cuộc vui cùng người yêu, tham khảo ngay thông tin chương trình ưu đãi cụ thể bên dưới nào.</p>
+
+                <li id="bold">Thể lệ chương trình</li>
+                <ul id="a1">
+                    <br>
+                    <li>Khi mua 01 ly Trà Sữa Cầu Vòng cỡ nhỏ, và đi cùng người yêu của mình, khách hàng sẽ được tặng 01 ly Trà
+                        Sữa Cầu Vòng tương tự. Giá chỉ 79,000 VNĐ cho 02 ly. Khách có thể trả thêm 10,000 VNĐ để có 01 dĩa
+                        bánh ngọt đính kèm. (Áp dụng cho cỡ nhỏ).</li>
+                    <hr>
+
+                    <li>Giá ưu đãi 79,000 VNĐ cho 02 ly cỡ nhỏ, khách hàng có thể trả thêm 10,000 VNĐ/ ly để đổi sang cỡ vừa
+                        và 16,000 VNĐ/ ly để đổi sang cỡ lớn. Quý khách có thể trả thêm 15,000 VNĐ cho 01 bánh ngọt bất kỳ
+                        hoặc 18,000 VNĐ cho 01 nước suối và 01 bánh ngọt bất kỳ (áp dụng cho cỡ lớn).</li>
+                   
+                    <hr>
+                    
+                    <li>Quý khách có thể mua 2 ly cỡ lớn với giá 105,000 VNĐ và nhận phiếu giảm giá cho ngày gần nhất đến cửa
+                        hàng.</li>
+                    
+                    <hr>
+                  
+                    <li>Khi mua 2 ly Trà Sữa Cầu Vòng bất kỳ cỡ nào, khách hàng có thể trả thêm 20,000 VNĐ cho bánh mì và 01
+                        nước suối hoặc 02 bánh ngọt bất kỳ.</li>
+                    
+                </ul>
+              
+                <hr>
+                
+                </ol>
+                <ul id="a2">
+                        <li>Chỉ áp dụng cho các cặp tình nhân.</li>
+                        <br>
+                        <li>Chỉ áp dụng khi đến uống tại quán.</li>
+                        <br>
+                        <li>Dĩa bánh ngọt chỉ có giá trị khi quý khách có nhu cầu.</li>
+                        <br>
+                        <li>Phiếu giảm giá sẽ áp dụng trong 3 ngày gần nhất.</li>
+                        <br>
+                        <li>Áp dụng cho tất cả các ngày trừ Chủ nhật.</li>
+                </ul>
+                
+        </div>
+        </div>
+        <div class="footer">
+                <div class="left_footer">
+                <div class="logo_footer">
+                <img src="images/logo_icon/footer.png" style="width: 80%"></img>
+                <div style="width: 100%; font-size:125%">COPYRIGHT © 2018 MilkTea</div>     
+                </div>
+                </div>
+                <div class="right_footer">
+                <div class="menu">
+                      <ul>
+                      <li><a href="gioithieu.html">Giới thiệu</a></li>
+                      <li><a href="ThucDon/ThucDon.html">Thực đơn</a></li>
+                      <li><a href="khuyenmai.html">Khuyến mãi</a></li>
+                      <li><a href="tuyendung.html">Tuyển dụng</a></li>
+                      </ul>
+                </div>
+                <div>
+                <a href="mailto:lesang541191309@gmail.com?subject=Feedback&body=Message" style="display: block; width: 80%;position: relative; float: left ;left: 100px;; text-decoration: none; color: #999999ff">
+                  <img src="images/logo_icon/mail.png" style="height: 12px"></img> : feedback@milktea.vn
+                </a>
+                </div>
+                </div>	
+                </div>
+           <div class="chuyen_ve_dau_trang" href="#">
+				<img src="images/top.png">
+			</div>
+
+</body>
+<script src="script/gioithieu.js"></script>
+</html>
